@@ -25,9 +25,9 @@
   sus componentes, y la expectativa que tengo es aprender todo lo que pueda para
   después desarrollarme mas en el tema.
 
-  - **(The complete list of miniquad components)[http://blog.oscarliang.net/250-mini-quad-part-list-fpv/]**
-  - **(Lista de piezas apra armar un miniquad)[http://dronesdecarreras.com/lista-de-compra-para-construir-un-multirotor-de-carreras-v-2/]**
-  - **(Construye un drone)[http://dronecenter.blogspot.mx/p/construye-tu-drone.html]**
+  - **[The complete list of miniquad components](http://blog.oscarliang.net/250-mini-quad-part-list-fpv/)**
+  - **[Lista de piezas apra armar un miniquad](http://dronesdecarreras.com/lista-de-compra-para-construir-un-multirotor-de-carreras-v-2/)**
+  - **[Construye un drone](http://dronecenter.blogspot.mx/p/construye-tu-drone.html)**
 
 ---
 
@@ -61,8 +61,8 @@
 - Armar mi propio dron, asi como modificarlo y crear nuevas areas, y aprender a
   volar como un experto.
 
-  - **(How to design a Drone)[http://www.robotshop.com/blog/en/make-uav-lesson-2-platform-14448]**
-  - **(DIYDrones)[http://diydrones.com/profiles/blog/list?tag=frame]**
+  - **[How to design a Drone](http://www.robotshop.com/blog/en/make-uav-lesson-2-platform-14448)**
+  - **[DIYDrones](http://diydrones.com/profiles/blog/list?tag=frame)**
   - **[Artículos por piezas y como configurar racing quads](http://dronesdecarreras.com/multicopteros-competicion/configurar-tutorial/)**
 
 ---
@@ -76,8 +76,8 @@
   saber a quien acercarme para una información de primera mano.
 - Aprender a armar y volar drones y  modificarlos para mejorarlos.
 
- - **(DIYDrones)[http://diydrones.com/]**
- - **(RCGroups)[http://www.rcgroups.com/forums/index.php]**
+ - **[DIYDrones](http://diydrones.com/)**
+ - **[RCGroups](http://www.rcgroups.com/forums/index.php)**
 
 ---
 
@@ -87,15 +87,15 @@
 - Aprender más sobre drones y electrónica para después poder controlarlos
   programáticamente (y controlar electrónicos diversos).
 
-  - **(Parrot API)[http://blog.parrot.com/2014/11/28/ardronesdk3-for-bebop-drone-and-minidrones-has-been-released/]**
-  - **(CrazyFly)[http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html?ref=staffPicked]**
+  - **[Parrot API](http://blog.parrot.com/2014/11/28/ardronesdk3-for-bebop-drone-and-minidrones-has-been-released/)**
+  - **[CrazyFly](http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html?ref=staffPicked)**
 
 ---
 
 - Hardware utilizado, software, ejemplos y donde comprar todo.
 - Donde y conseguir buenas piezas y articulos para construir drones
 
-  - **(Multicpter supplier list)[https://www.reddit.com/r/multicopter/wiki/suppliers]**
+  - **[Multicpter supplier list](https://www.reddit.com/r/multicopter/wiki/suppliers)**
 
 ---
 
@@ -106,8 +106,8 @@
   quizá durante el taller cambie de opinión :P
 - Aprender el funcionamiento y la tecnología que utilizan Construcción, Aplicaciones
 
-  - **(Drones e industrias emergentes)[http://cincodias.com/cincodias/2015/04/02/tecnologia/1427998183_788282.html]**
-  - **(Drone startups)[https://angel.co/drones-2]**
+  - **[Drones e industrias emergentes](http://cincodias.com/cincodias/2015/04/02/tecnologia/1427998183_788282.html)**
+  - **[Drone startups](https://angel.co/drones-2)**
 
 ---
 
