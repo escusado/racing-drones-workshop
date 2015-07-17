@@ -9,11 +9,10 @@
     [Electrónica de vuelo](http://vueloartificial.com/introduccion/primeros-pasos/la-electronica-de-vuelo/),
     [Choosing an RC transmitter](http://bvanderveen.com/a/how-to-choose-an-rc-transmitter)**
 
+---
+
 - Aprender lo básico para el uso, creación y manejo de un drone. Me gustaría
-poder volar un drone y después experimentar con uno.
-
-  - **[Artículos por piezas y como configurar racing quads](http://dronesdecarreras.com/multicopteros-competicion/configurar-tutorial/)**
-
+  poder volar un drone y después experimentar con uno.
 - Conocer la manera en la que estan compuestos los drones, el tipo de componentes
   que los conforman, su funcionamiento, tecnicas de vuelo, diferencias entre modelos,
   técnicas de fotografias video.
@@ -29,6 +28,8 @@ poder volar un drone y después experimentar con uno.
   - **(The complete list of miniquad components)[http://blog.oscarliang.net/250-mini-quad-part-list-fpv/]**
   - **(Lista de piezas apra armar un miniquad)[http://dronesdecarreras.com/lista-de-compra-para-construir-un-multirotor-de-carreras-v-2/]
   - **(Construye un drone)[http://dronecenter.blogspot.mx/p/construye-tu-drone.html]
+
+---
 
 - Conocer mas sobre la tecnologia y poder usarla y aprender de eso
 - Desarrollo de hardware y software de drones
@@ -62,7 +63,9 @@ poder volar un drone y después experimentar con uno.
 
   - **(How to design a Drone)[http://www.robotshop.com/blog/en/make-uav-lesson-2-platform-14448]**
   - **(DIYDrones)[http://diydrones.com/profiles/blog/list?tag=frame]**
+  - **[Artículos por piezas y como configurar racing quads](http://dronesdecarreras.com/multicopteros-competicion/configurar-tutorial/)**
 
+---
 
 - ¿Que significa ser un maker?
 - Aprender a volar drones y poder customizar o agregar IoT por hobby
@@ -76,6 +79,8 @@ poder volar un drone y después experimentar con uno.
  - **(DIYDrones)[http://diydrones.com/]**
  - **(RCGroups)[http://www.rcgroups.com/forums/index.php]**
 
+---
+
 - Creación de drones e ideas para utilizar drones en ambientes controlados.
 - Aprender no sólo la parte mecánica/manual de un drone sino entender cómo es que
   funciona y mediante que lenguaje se le programa.
@@ -85,11 +90,14 @@ poder volar un drone y después experimentar con uno.
   - **(Parrot API)[http://blog.parrot.com/2014/11/28/ardronesdk3-for-bebop-drone-and-minidrones-has-been-released/]**
   - **(CrazyFly)[http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html?ref=staffPicked]**
 
+---
 
 - Hardware utilizado, software, ejemplos y donde comprar todo.
 - Donde y conseguir buenas piezas y articulos para construir drones
 
   - **(Multicpter supplier list)[https://www.reddit.com/r/multicopter/wiki/suppliers]
+
+---
 
 - Uso de drones para soluciones de problemas
 - El funcionamiento de los drones, costos, limitaciones, oportunidades de trabajo.
@@ -101,6 +109,7 @@ poder volar un drone y después experimentar con uno.
   - **(Drones e industrias emergentes)[http://cincodias.com/cincodias/2015/04/02/tecnologia/1427998183_788282.html]**
   - **(Drone startups)[https://angel.co/drones-2]**
 
+---
 
 - Una explicacion detallada sobre el por que se necesitan los componentes que
   elijieron ustedes y las alternativas a ellos para la construccion del drone.
