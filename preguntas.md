@@ -3,7 +3,7 @@ microcontroladores o mini-computadoras Conocimientos generales de terminologia
 del mundo de los drones. Estandares de los controles remotos para el uso con
 drones, alcances, recomendaciones, etc.
 
-  - *Oferta de flight controllers y protocolos de transmisión de control (accst, fsst, propietarios)*
+  - **Oferta de flight controllers y protocolos de transmisión de control (accst, fsst, propietarios)**
 
 - Aprender lo básico para el uso, creación y manejo de un drone. Me gustaría poder volar un drone y después experimentar con uno.
 
