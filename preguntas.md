@@ -26,8 +26,8 @@
   después desarrollarme mas en el tema.
 
   - **(The complete list of miniquad components)[http://blog.oscarliang.net/250-mini-quad-part-list-fpv/]**
-  - **(Lista de piezas apra armar un miniquad)[http://dronesdecarreras.com/lista-de-compra-para-construir-un-multirotor-de-carreras-v-2/]
-  - **(Construye un drone)[http://dronecenter.blogspot.mx/p/construye-tu-drone.html]
+  - **(Lista de piezas apra armar un miniquad)[http://dronesdecarreras.com/lista-de-compra-para-construir-un-multirotor-de-carreras-v-2/]**
+  - **(Construye un drone)[http://dronecenter.blogspot.mx/p/construye-tu-drone.html]**
 
 ---
 
@@ -95,7 +95,7 @@
 - Hardware utilizado, software, ejemplos y donde comprar todo.
 - Donde y conseguir buenas piezas y articulos para construir drones
 
-  - **(Multicpter supplier list)[https://www.reddit.com/r/multicopter/wiki/suppliers]
+  - **(Multicpter supplier list)[https://www.reddit.com/r/multicopter/wiki/suppliers]**
 
 ---
 
