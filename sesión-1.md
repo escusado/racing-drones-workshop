@@ -132,9 +132,11 @@ que es posible montar sistemas de video a bordo para transmisión de señal en v
 
 ## Hubsan x4 - 101 (crash course)
 
-El hubsan x4 es un multirotor en la cláse micro <small>(<200mm, más en clases sesión 2)</small>:
+El hubsan x4 es un multirotor en la cláse micro *(<200mm, más en clases sesión 2)*:
 
-Hardware <small>(más sobre componentes en la sesión 2)</small>:
+Hardware:
+*(más sobre componentes en la sesión 2)*
+
 - Tamaño: 60 x 60mm
 - Motores (x4): Coreless Motor 8.5mm brushed
 - Frecuencia de radio control: 2.4GHz
@@ -142,9 +144,20 @@ Hardware <small>(más sobre componentes en la sesión 2)</small>:
 - Batería: 240mAh~500mah Li-Po Battery
 - Tiempo de vuelo (stock): 6~ min.
 
-
-
 [rcG - Thread](http://www.rcgroups.com/forums/showthread.php?t=1743358)
+
+### Operacíon
+
+#### Controles (Simulador)
+
+[/img/axis-diagram.jpg]
+
+- Throttle - Potencia de los motores
+- Yaw - Giro en Z
+- Roll - Giro en X
+- Pitch Giro en Y
+
+[ref 1](http://blog.tkjelectronics.dk/2012/03/quadcopters-how-to-get-started/)
 
 ### Precheck
 
