@@ -148,23 +148,58 @@ Hardware:
 
 ### Operacíon
 
-#### Controles (Simulador)
+#### Básico
+
+ACT: simulador
 
 ![axis diagram](/img/axis-diagram.png)
+[ref](http://blog.tkjelectronics.dk/2012/03/quadcopters-how-to-get-started/)
 
-- Throttle - Potencia de los motores
-- Yaw - Giro en Z
-- Roll - Giro en X
-- Pitch Giro en Y
+- `Throttle` - Potencia de los motores
+- `Yaw` - Giro en Z
+- `Roll` - Giro en X
+- `Pitch` Giro en Y
 
-[ref 1](http://blog.tkjelectronics.dk/2012/03/quadcopters-how-to-get-started/)
+Dado que un quad como el hubsan pertenece a la familia de aeronaves capaces de
+despegue vertical ([VTOL](https://es.wikipedia.org/wiki/VTOL)) es posible
+levantar el quad con solo mandar poder a los motores.
+
+Enviar potencia a los motores es lo más importante de volar multicopters. Es
+importante siempre mantener control del `throttle` ya que es lo que mantiene el
+quad en el aire a la altura deseada.
+
+#### Flying
+
+Típicamente un quad se opera volando nariz al frente, este tipo de vuelo se logra
+operando ambos sticks a la véz. Dado que toma tiempo acostumbrarse a los controles
+es recomendable seguir una serie de ejercicios iniciales para familiarizarse con
+los controles [ref](http://www.rchelicopterfun.com/rc-helicopter-training.html):
 
 ### Precheck
 
 Antes de disponernos a volar, debemos verificar que el quad esté listo y espacio
 disponible.
 
-### Props
+#### Field
+
+Búsca un espacio donde puedas operar el quad en un area de alrededor de 5x5m.
+Si hay personas contigo, déjales saber que vas a operar el hubsan en este lugar
+y deben de estar al tanto, si pretendes grabar video o fotografía debes informar
+a los presentes también.
+
+Avisa cuando estés por despegar.
+
+De preferencia no debe de haber viento, el hubsan puede operar perfectamente en
+lugares cerrados, y no tener viento ayuda mucho al principio para entender los
+controles.
+
+#### Componentes
+
+#### Baterías
+
+Todo vuelo debe comenzar con baterías cargadas al 100% tanto en el quad como
+
+#### Props
 Verificar que las props estén bien puestas, dando espacio de 1mm~ entre el motor
 y la base del prop.
 
@@ -172,7 +207,7 @@ y la base del prop.
 
 ### Controls
 
-
+`Throttle`: Lenvata el quad a una altura de alrededor de
 
 
 
