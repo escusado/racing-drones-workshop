@@ -150,7 +150,7 @@ Hardware:
 
 #### Controles (Simulador)
 
-[/img/axis-diagram.jpg]
+![axis diagram](/img/axis-diagram.jpg)
 
 - Throttle - Potencia de los motores
 - Yaw - Giro en Z
