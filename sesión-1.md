@@ -130,11 +130,36 @@ micro revolución abriendo la posibilidad a vuelo acróbatico y de velocidad que
 antes ningún vehiculo había tenido. A la par la tecnología se ha abaratado tanto
 que es posible montar sistemas de video a bordo para transmisión de señal en vivo.
 
-## Mécanicas de vuelo
+## Hubsan x4 - 101 (crash course)
 
-TODO: mecanicas de un avion
-TODO: mecanicas de multicopters
-TODO: quads specifics
+El hubsan x4 es un multirotor en la cláse micro <small>(<200mm, más en clases sesión 2)</small>:
+
+Hardware <small>(más sobre componentes en la sesión 2)</small>:
+- Tamaño: 60 x 60mm
+- Motores (x4): Coreless Motor 8.5mm brushed
+- Frecuencia de radio control: 2.4GHz
+- Voltaje en operación: 3.7V
+- Batería: 240mAh~500mah Li-Po Battery
+- Tiempo de vuelo (stock): 6~ min.
+
+
+
+[rcG - Thread](http://www.rcgroups.com/forums/showthread.php?t=1743358)
+
+### Precheck
+
+Antes de disponernos a volar, debemos verificar que el quad esté listo y espacio
+disponible.
+
+### Props
+Verificar que las props estén bien puestas, dando espacio de 1mm~ entre el motor
+y la base del prop.
+
+
+
+### Controls
+
+
 
 
 
