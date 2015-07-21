@@ -161,7 +161,7 @@ se hicieran algo populares:
 ![tbs-gemini](/img/tbs-gemini.jpg)
 
 ### Blackout Minispider Hex
-![blackout-minispider](/img/blackout-minispider.jpg)
+![blackout-minispider](/img/blackout-minispider.JPG)
 
 ### HK Thorax Hex
 ![thorax-hex](/img/thorax-hex.jpg)
