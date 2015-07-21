@@ -8,12 +8,14 @@
 > El vocabulario técnico usado en este taller será en inglés, dado que la mejor y
 > más reciente información se encuentra en este idioma para hacer que el asistente
 > se familiarice con el slang desde un principio.
-> Ref: [Liang Glossary Guide](http://blog.oscarliang.net/quadcopter-acronyms-term-glossary-word-drone/)
+> [Liang Glossary Guide](http://blog.oscarliang.net/quadcopter-acronyms-term-glossary-word-drone/)
 
 # Autoproclaimed Aeronautic Engineer
 
-El diseño de multirotores está basado en la cantidad de motores que colaboran al
-lift de la nave.
+Hoy en día el dieño y armado de multorores se ha vuelto bastante accesible tanto
+economica como ingenierílmente, los costos bajan día con día y el hardware y software
+se vuelve más sencillo de ultilizar. Hoy es comparable con armar una computadora
+en el 2000.
 
 ## #1 Rule
 
@@ -64,17 +66,13 @@ thrust_por_motor = thrust_mínimo_deseado / cantidad_de_motores_deseada;
 ```
 
 Para poder decidir la `cantidad_de_motores_deseada` es necesario conocer los
-tipos de multirotores y sus usos:
-
-[ref](http://blog.oscarliang.net/how-to-choose-motor-and-propeller-for-quadcopter/)
+tipos de multirotores y sus usos ([ref](http://blog.oscarliang.net/how-to-choose-motor-and-propeller-for-quadcopter/)):
 
 # Multicopter Types
 
 Cáda configuración ofrece caracteristicas distintas, pero después de 4 las configuraciones
 simetricas se comportan igual. Existen algunas asimetricas después de 3, pero son un
-poco exóticas:
-
-[ref](http://www.dronethusiast.com/what-you-should-know-about-multicopter-configurations/)
+poco exóticas. ([ref](http://www.dronethusiast.com/what-you-should-know-about-multicopter-configurations/), [ref](http://www.computersrwilde.com/Projects/hexacopter/design1.html))
 
 ## BiCopter
 
@@ -82,12 +80,12 @@ Considerado el más simple ya que sólo cuenta con 2 motores que se alinean con 
 para lograr el `yaw`, el menos robusto de la familia dado que con 2
 motores el rango de carga es muy corto. Poco popular en el mundo de RC ya que
 son difícil de configurar y por su poca practicidad es considerado más un reto
-técnico que un craft funcional:
+técnico que un craft funcional: ([avar gunship](http://flitetest.com/articles/Avatar_Gunship_Scratch_Build))
 
 ![bicopter](/img/bicopter.jpg)
 ![bicopter-diag](/img/bicopter-diag.jpg)
 
-[avar gunship](http://flitetest.com/articles/Avatar_Gunship_Scratch_Build)
+
 
 ## Tricopter
 
@@ -98,13 +96,11 @@ Esto vuelve su ingeniería un poco más compleja ya que añade un segundo tipo d
 componente motorizado y controlado desde tierra que comparte control del craft
 con el motor de cola. Lo intenresante del tri es que precisamente esta caracteristica
 lo vuelven extremadamente ágil y con un tipo de vuelo muy particular que no se
-logra con otras configuraciones.
+logra con otras configuraciones. ([quanum trifecta](https://www.youtube.com/watch?v=wD3rhzxb9I8))
 
 ![y-tricopter](/img/y-tricopter.png)
 ![t-tricopter](/img/t-tricopter.png)
 ![tricotper-diag](/img/tricopter-diag.jpg)
-
-[quanum trifecta](https://www.youtube.com/watch?v=wD3rhzxb9I8)
 
 ## Quadcopter
 
@@ -114,7 +110,7 @@ de motor. Existen várias configuraciónes:
 # `X`
 
 Excelente maniobrabilidad, dado que su centro de masa está justo al centro, perfecto
-para vuelo acrobático.
+para vuelo acrobático. ([ref](https://www.youtube.com/watch?v=oR3q4hlmoEo))
 
 ![x-quad](/img/x-quad.jpg)
 
@@ -122,7 +118,7 @@ para vuelo acrobático.
 
 Dado que su vuelo se asemeja más al de un avión, hay quién prefiere este tipo de
 dirección, pero presentan problemas si es necesario montar una cámara que mire al
-frente dado que las hélices obstruirían la vista.
+frente dado que las hélices obstruirían la vista. ([ref](https://www.youtube.com/watch?v=Cwx5GqKW--8))
 
 ![plus-quad](/img/plus-quad.jpg)
 
@@ -134,16 +130,61 @@ separados al frente permite colocar las cámaras mirando al frente sin ningún p
 
 ![h-quad](/img/h-quad.jpg)
 
+Todos funcionan bajo el mismo principio:
+
+![quad-diag](/img/quad-diag.jpg)
+([ref](https://sites.google.com/site/npaecopterguide/multirotor_getting_started/flight-theory-multi-rotor))
+
 ## Pentacopter
 
+Otra de las configuraciones exóticas, usa las mecánicas del quad.
+
+![pentacopter](/img/pentacopter.jpg)
+
+## Hexacopter
+
+Cuenta con 6 motores, sus mecánicas son muy parecidas a las del quad, y es la
+ruta más inmediata para escalar la capacidad de carga y estabilidad. Además de
+ofrecer redundancia de manera muy sencilla, uno de los motores puede fallar y aún
+así poder aterrizar de manera segura.
+
+![hexacopter](/img/hexacopter.jpg)
+![hexacopter-diag](/img/hexacopter-diag.jpg)
+
+En el mundo de FPV los Hexas no son tán populares ya que al ser máquinas con
+prestaciones más serias e ingeniería más compleja que los quads, solo los pilotos
+más experimentados optan por este tipo de configuración. Por esta razón la oferta
+de estas plataformas no es tán grande y dió espacio para que las pocas que existen
+se hicieran algo populares:
+
+### TBS Gmini
+![tbs-gemini](/img/tbs-gemini.jpg)
+
+### Blackout Minispider Hex
+![blackout-minispider](/img/blackout-minispider.jpg)
+
+### HK Thorax Hex
+![thorax-hex](/img/thorax-hex.jpg)
+
+### Vortex Hex (soon)
+![vortex-hex](/img/vortex-hex.jpg)
 
 
 
 ## Cláses
 
+### Reversive props
+
+### Fuel powered
 
 ## Common Mods
 
 Angled motors
 Wider lens
 Angle cameras
+
+## Exotic stuff
+
+Booster
+
+Thrust only motors
