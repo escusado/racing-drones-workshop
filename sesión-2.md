@@ -79,7 +79,7 @@ poco exóticas:
 ## BiCopter
 
 Considerado el más simple ya que sólo cuenta con 2 motores que se alinean con servos
-para lograr el `yaw`, el menos robusto de la familia ya que sólo cuenta con 2
+para lograr el `yaw`, el menos robusto de la familia dado que con 2
 motores el rango de carga es muy corto. Poco popular en el mundo de RC ya que
 son difícil de configurar y por su poca practicidad es considerado más un reto
 técnico que un craft funcional:
@@ -100,7 +100,8 @@ con el motor de cola. Lo intenresante del tri es que precisamente esta caracteri
 lo vuelven extremadamente ágil y con un tipo de vuelo muy particular que no se
 logra con otras configuraciones.
 
-![tricopter](/img/tricopter.png)
+![y-tricopter](/img/y-tricopter.png)
+![t-tricopter](/img/t-tricopter.png)
 ![tricotper-diag](/img/tricopter-diag.jpg)
 
 [quanum trifecta](https://www.youtube.com/watch?v=wD3rhzxb9I8)
