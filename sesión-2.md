@@ -169,6 +169,13 @@ se hicieran algo populares:
 ### Vortex Hex (soon)
 ![vortex-hex](/img/vortex-hex.jpg)
 
+### Octocopter
+
+De nuevo la ruta para escalar a más peso y estabilidad es mediante más helices,
+y 8 es es el siguiente paso simetrico, aumentando costo y redundacia esta
+configuración permite que hasta 3 hélices fallen y aún así poder aterrizar.
+
+![octocopter-diag](/img/octocopter-diag.png)
 
 
 ## Cláses
