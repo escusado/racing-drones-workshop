@@ -178,6 +178,19 @@ configuración permite que hasta 3 hélices fallen y aún así poder aterrizar.
 ![octocopter](/img/octocopter.jpg)
 ![octocopter-diag](/img/octocopter-diag.png)
 
+### > 8
+
+De 8 en adelánte todo es igual, escala tamaño, capacidades, costo y estabilidad.
+
+### Scale to double motors
+
+## Y4 – 4 motors
+
+Este
+
+![y4copter](/img/y4copter.jpg)
+![y4copter-diag](/img/y4copter-diag.png)
+[y4copter](https://www.youtube.com/watch?v=QEQto96adUU)
 
 ## Cláses
 
@@ -194,5 +207,5 @@ Angle cameras
 ## Exotic stuff
 
 Booster
-
+Manned
 Thrust only motors
