@@ -139,7 +139,7 @@ Todos funcionan bajo el mismo principio:
 
 Otra de las configuraciones exóticas, usa las mecánicas del quad.
 
-![pentacopter](/img/pentacopter.jpg)
+![pentacopter](/img/pentacopter.png)
 
 ## Hexacopter
 
