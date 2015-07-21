@@ -84,8 +84,8 @@ motores el rango de carga es muy corto. Poco popular en el mundo de RC ya que
 son difícil de configurar y por su poca practicidad es considerado más un reto
 técnico que un craft funcional:
 
-![bicotper](/img/bicotper.jpg)
-![bicotper-diag](/img/bicotper-diag.jpg)
+![bicotper](/img/bicopter.jpg)
+![bicotper-diag](/img/bicopter-diag.jpg)
 
 [avar gunship](http://flitetest.com/articles/Avatar_Gunship_Scratch_Build)
 
@@ -100,8 +100,8 @@ con el motor de cola. Lo intenresante del tri es que precisamente esta caracteri
 lo vuelven extremadamente ágil y con un tipo de vuelo muy particular que no se
 logra con otras configuraciones.
 
-![tricotper](/img/tricotper.jpg)
-![tricotper-diag](/img/tricotper-diag.jpg)
+![tricotper](/img/tricopter.jpg)
+![tricotper-diag](/img/tricopter-diag.jpg)
 
 [quanum trifecta](https://www.youtube.com/watch?v=wD3rhzxb9I8)
 
