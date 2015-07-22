@@ -45,27 +45,32 @@ del payload que quieres en el aire:
 - Luces
 - etc.
 
-La regla para comenzar a decidir es buscar que los motores generen el thrust
-suficiennte para levantar el doble del peso del craft que está dado por
-el peso del payload más el peso de los componentes:
+Conociendo el peso y dimensiones de tu payload podrás coemenzar a decidir que
+componentes comprar, lo mejor es buscar que builds similares existen, y ver que
+componentes están disponibles.
 
-```
-peso_del_craft = payload + componentes;
-thrust_mínimo_deseado = peso_del_craft * 2;
-```
+Con una idea de lo que necesitas, es necesario sumar el peso de los componentes
+al peso del payload.
+
+Es importante usar como herramienta las hojas de test de motores para saber que
+fuerza tiene con varias configuraciones de baterías y props.
+
+![strestests](/img/efficiency-test.png)
+
+Necesitas como mínimo una proporción de 2:1 (2 thrust : 1 peso total del craft)
+
+Y es importante envetualmente hacer tus propias pruebas de trhust:
+
+![thrust-test](/img/thrust-test.png)
+
 Lo que sigue es saber cuantos motores queremos, existen varias configuraciones
 de multirotres y todas cubren una necesidad especial, pero la relga es: `Más helices
 hacen a un craft más estable` dado que mueven aire en un area más grande (como
 si cada motor fuera un punto de apoyo).
 
-Por tanto necesitamos decidir la cantidad de helices que necesitamos y poder
-así decidir que motores montar:
+Al final solo tienes que dividir el trhust deseado entre la cantidad de motores.
 
-```
-thrust_por_motor = thrust_mínimo_deseado / cantidad_de_motores_deseada;
-```
-
-Para poder decidir la `cantidad_de_motores_deseada` es necesario conocer los
+Para poder decidir la cantidad de motores deseada es necesario conocer los
 tipos de multirotores y sus usos ([ref](http://blog.oscarliang.net/how-to-choose-motor-and-propeller-for-quadcopter/)):
 
 # Multicopter Types
@@ -150,6 +155,7 @@ así poder aterrizar de manera segura.
 
 ![hexacopter](/img/hexacopter.jpg)
 ![hexacopter-diag](/img/hexacopter-diag.jpg)
+![hexh](/img/hexh.jpg)
 
 En el mundo de FPV los Hexas no son tán populares ya que al ser máquinas con
 prestaciones más serias e ingeniería más compleja que los quads, solo los pilotos
@@ -186,13 +192,82 @@ De 8 en adelánte todo es igual, escala tamaño, capacidades, costo y estabilida
 
 ## Y4 – 4 motors
 
-Este
+Este tipo de multirotores se caracteriza por tener propelas montadas en contra,
+logra `yaw` aumentando o disminuyendo la potencia de cualquiera de las 2.
 
 ![y4copter](/img/y4copter.jpg)
 ![y4copter-diag](/img/y4copter-diag.jpg)
 [y4copter](https://www.youtube.com/watch?v=QEQto96adUU)
 
+## Y6
+
+Esta configuración usa props CC y CCW en cada brazo para el doble de thrust,
+tienen el lift cercano a un hexa pero en el tamaño de un tri, lamentablemente
+la configuración coaxial lo vuelve menos eficiente.
+
+![y6](/img/y6.jpg)
+![y6-diag](/img/y6-diag.jpg)
+[y6](https://www.youtube.com/watch?v=F9lLUG23MOI)
+
+## X8 >
+
+![x8](/img/x8.jpg)
+![x8-diag](/img/x8-diag.jpg)
+[x8](https://youtu.be/XIWBoIRSmTo?t=47s)
+
+### x12
+
+![x12](https://vimeo.com/102573098)
+
+## V Tail
+
+Pierde thrust al mantener los motores en ángulo, pero al hacer `yaw` no pierde
+altura.
+
+![vtail](/img/vtail.jpg)
+[x8](https://youtu.be/7jo1MpFRJCc?t=51s)
+
 ## Cláses
+
+![250-measures](/img/250-measures.jpg)
+
+En algunas tiendas los productos son acomodados por tamaño los racers comúnmente
+se mantienen en menores a 300mm. Esta es la distancia en diagonal de motor a motor.
+
+# Let us build
+
+Construír un multirotor implica varias etapas, y es necesario tomarnos el tiempo
+para hacer investigación sobre nuestro problema y las soluciones disponibles,
+comprar entre plataformas comerciales o componentes individuales.
+
+Es un **proceso iterativo**, es común que la selección de un componente limíte
+las opciones en otro, ten en cuenta la combinación de piezas y la compatibilidad
+entre ellas.
+
+# Racing Componentes
+
+En carreras la ingeniería de los crafts es bastánte accesible hoy en día, y comunmente
+se empieza seleccionando un frame:
+
+## Frame
+
+EL chasis del build, donde colocarás todas las piezas, comúnmente fabricados de
+fibra de carbono, hay muchas propuestas, desde los que favorecen el vuelo, la cámara,
+la facilidad de armado, precio, etc.
+
+Encuentra uno que apele a tus intenreses los más populares son:
+
+### Blackout mini H
+![blackout](/img/blackout.jpg)
+
+### Lumineir QAV250
+![qav250](/img/qav250.jpg)
+
+### ZMR250 (v2)
+![zmr250](/img/zmr250.jpg)
+
+### Crash management (only racing)
+
 
 ### Reversive props
 
