@@ -245,6 +245,10 @@ Es un **proceso iterativo**, es común que la selección de un componente limít
 las opciones en otro, ten en cuenta la combinación de piezas y la compatibilidad
 entre ellas.
 
+Para este punto vamos a tomar unas desciciones inciales que harán más simple la
+selección de componentes, nos concentraremos en quadcopters al ser la conficuración
+más popular existe mucha más información, por costo y sencillez.
+
 # Racing Componentes
 
 En carreras la ingeniería de los crafts es bastánte accesible hoy en día, y comunmente
@@ -267,8 +271,27 @@ Encuentra uno que apele a tus intenreses los más populares son:
 ### ZMR250 (v2)
 ![zmr250](/img/zmr250.jpg)
 
+En un chasis un punto importante es el acceso a la electrónica, es común al
+princio ajustar el interior y configuración de la nave, así que un acceso fácil
+a los electrónicos ayuda en practicidad.
+
+El peso y configuración debe soportar los rangos de experimentación que querramos
+tener, por ejemplo, limitar el tamaño de los brazos, limitará nuestras opciones
+de props, o la altura del fuselaje nuestras opciones de cámara FPV.
+
 ### Crash management (only racing)
 
+![crashed-qav](/img/crashed-qav.jpg)
+
+En carreras especificamente debes de pensar en el choque, y tu build debe de estar
+listo para ello balanceando entre facilidad de reparación y resistencia al choque.
+
+Prepara el quad para ser demasiado resistente a choques (sugetando con fuerza los
+componentes, utilizando piezas de metal y fibra de carbono, etc.) harán el impacto
+del choque más significativo en los componentes. En caso contrario si el frame es
+de materiales menos rígidos y ciertas piezas son plásticas y el montado de los
+componentes se hace con algún tipo de pegamento, el quad cederá al imapacto,
+desarmandose en lugar de resistir y en dado caso romper algún componente.
 
 ### Reversive props
 
