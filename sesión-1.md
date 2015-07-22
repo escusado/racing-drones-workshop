@@ -200,6 +200,8 @@ y estar conciente de cuanta carga tienen nuestros controles y receptores.
 - Controles (craft y gimbal)
 - FPV Rx
 
+TODO: Capacity and features (discharge rate)
+
 #### Props
 
 Verificar que las props estén bien puestas, dando espacio de 1mm~ entre el motor
@@ -273,6 +275,8 @@ Matar el poder hace lo más lógico tirar el quad del cielo, esto obedece a 2 co
 
 El hubsan puede parecer un juguete pero es una máquina bastante capáz de ocacionar
 heridas graves, pon siempre a la gente primero.
+
+## Failsafe
 
 TODO: resumen de lista de safety gidelines
 

@@ -189,7 +189,7 @@ De 8 en adelánte todo es igual, escala tamaño, capacidades, costo y estabilida
 Este
 
 ![y4copter](/img/y4copter.jpg)
-![y4copter-diag](/img/y4copter-diag.png)
+![y4copter-diag](/img/y4copter-diag.jpg)
 [y4copter](https://www.youtube.com/watch?v=QEQto96adUU)
 
 ## Cláses
@@ -209,3 +209,5 @@ Angle cameras
 Booster
 Manned
 Thrust only motors
+
+Class (by size)
