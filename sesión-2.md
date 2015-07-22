@@ -61,7 +61,7 @@ Necesitas como mínimo una proporción de 2:1 (2 thrust : 1 peso total del craft
 
 Y es importante envetualmente hacer tus propias pruebas de trhust:
 
-![thrust-test](/img/thrust-test.png)
+![thrust-test](/img/thrust-test.jpg)
 
 Lo que sigue es saber cuantos motores queremos, existen varias configuraciones
 de multirotres y todas cubren una necesidad especial, pero la relga es: `Más helices
