@@ -90,8 +90,6 @@ técnico que un craft funcional: ([avar gunship](http://flitetest.com/articles/A
 ![bicopter](/img/bicopter.jpg)
 ![bicopter-diag](/img/bicopter-diag.jpg)
 
-
-
 ## Tricopter
 
 Cuenta con 3 motores que pueden ser configurados en posiciones `Y` o `T` usualmente
@@ -245,7 +243,11 @@ Es un **proceso iterativo**, es común que la selección de un componente limít
 las opciones en otro, ten en cuenta la combinación de piezas y la compatibilidad
 entre ellas.
 
-Para este punto vamos a tomar unas desciciones inciales que harán más simple la
+Para ejemplificar el proceso de construcción de un multirotor lo haremos con un
+build para carreras ya que contiene las partes críticas de cualquier multirotor
+y puede ser una plataforma para explorar otras posibilidades ajenas a fpv racing.
+
+En este punto vamos a tomar unas desciciones inciales que harán más simple la
 selección de componentes, nos concentraremos en quadcopters al ser la conficuración
 más popular existe mucha más información, por costo y sencillez.
 
