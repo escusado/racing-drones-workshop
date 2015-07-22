@@ -217,7 +217,7 @@ la configuración coaxial lo vuelve menos eficiente.
 
 ### x12
 
-![x12](/img/x8.webp)
+![x12](/img/x12.webp)
 [x12](https://vimeo.com/102573098)
 
 ## V Tail
