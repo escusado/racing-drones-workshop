@@ -285,7 +285,7 @@ El peso y configuración debe soportar los rangos de experimentación que querra
 tener, por ejemplo, limitar el tamaño de los brazos, limitará nuestras opciones
 de props, o la altura del fuselaje nuestras opciones de cámara FPV.
 
-### Crash management (only racing)
+### Crash management (racing only)
 
 ![crashed-qav](/img/crashed-qav.jpg)
 
@@ -391,8 +391,8 @@ Las caracteristicas que nos importan de un ESC es primero la cantidad de Amps qu
 puede gobernar y las funciones que soporta.
 
 Los Amps está dado por los motores (podemos revisar esto en la tabla del fabricante)
-debemos dejar un colchón de un 20% si los motores consumen 15Amp los ESC's pueden ser
-de 18 o 20Amp.
+debemos dejar un colchón de alrededor de 20% si los motores consumen 15Amp los
+ESC's pueden ser de 18 o 20Amp.
 
 Los ESC's corren un sistma operativo, y existen varios SimonK, BLHeli, etc. Y cási
 todos soportan los features nuevos que nos interesan OneShot y Active Breaking. Es raro
