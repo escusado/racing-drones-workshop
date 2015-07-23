@@ -233,6 +233,10 @@ altura.
 En algunas tiendas los productos son acomodados por tamaño los racers comúnmente
 se mantienen en menores a 300mm. Esta es la distancia en diagonal de motor a motor.
 
+- <200 (Micro)
+- <300 (Mini)
+- >300 (Others)
+
 # Let us build
 
 Construír un multirotor implica varias etapas, y es necesario tomarnos el tiempo
@@ -294,6 +298,109 @@ del choque más significativo en los componentes. En caso contrario si el frame 
 de materiales menos rígidos y ciertas piezas son plásticas y el montado de los
 componentes se hace con algún tipo de pegamento, el quad cederá al imapacto,
 desarmandose en lugar de resistir y en dado caso romper algún componente.
+
+## Power system
+
+Engloba batería, ESC's, motores, sistema de distribución y regulación de poder.
+
+### Motores
+
+Existen 2 tecnologías dominantes en cuanto a motores
+
+#### Brushed DC
+
+![brushed-motor](/img/brushed-motor.jpg)
+![brushed-diag](/img/brushed-diag.png)
+
+La tecnología tradicional, utiliza un sistema de cepillos que alternan la polaridad
+de los electromagnetos al interior del motor estos son repelidos/atraidos por los
+magnetos al exterior del motor, esto genera torque y eventualmente movimiento.
+
+Normalmente este tipo de motores puede ser conectado directamente a una fuente de
+poder requieren menos electrónica para funcionar y son utilizados hoy en día en
+`Micro class` por su relación peso/poder. [ref](https://www.youtube.com/watch?v=0-YXBxzKx7g)
+
+#### Brushless (electronically commutated motors (ECM's) )
+
+![cobra-motor](/img/cobra-motor.png)
+![brushless](/img/brushless.gif)
+
+Funcionan bajo el mismo principio de electromagnetos que switchean la polaridad
+para atraer/repeler magnetos, sólo que estos no utilizan un sistema físico de
+cepillos, estos necesitan un sistema de electrónica que los prenda y apague
+de manera sincronizada y en orden. La prescición del controlador de velocidad es
+el factor clave en este tipo de motores.
+
+Tradicionalmente en multirotores los magnetos están montados en la campana que
+rodea los electromagnetos que están controlados por el `ESC` que switchea
+multiples veces por segundo su polaridad y hacen girar al arreglo de
+neodimios que se encuentra a su alrededor montados en la campana que se encuentra
+suspendida en un sistema de baleros.
+
+Hay 3 factores importantes a la hora de escoger un motor:
+
+- Tamaño, debemos encontrar motores que quepan físicamente en el frame, normalmente
+por cada cláse, existen un rango de entre 1 y 5 tamaños que pueden ser compatibles
+con el frame de dicho tamaño.
+
+- Velocidad, dada en `Kv`s (las vueltas necesarias para generar 1v, Fun fact: los motores
+son generadores conectados al revez), mientras más rápido el motor más pequeña
+debe ser su prop. (props más grandes harán que el motor se esfuerce más en cambiar
+la velocidad por la inercia del tamaño, haciendo que el motor consuma mas amperes
+demandando más energía del ESC que debe de estar preparado para gobernar esa cantidad
+de energía, si no lo está se quema)
+
+- **Eficiencia, La parte esotérica de multirotores:**
+
+### Eficiencia del motor
+
+Cuando escoges un sistema de poder, lo que buscas es que tus motores operen con
+la mayor eficiencia posible, esto es que la candidad de energía requerida por estos
+sea la cantidad perfecta para levantar y mover el craft.
+
+Tristemente es un sistema de balanzas donde al cambiar un componente o sus características
+afecta al sistema completo.
+
+El sistema es tán delicado que se ve afectado por cosas tán simples como la
+altura con respecto al nivel del mar, el aire al ser más delgado afecta el desempeño
+del craft. Cambiar de marca de prop, capacidad de la batería, etc.
+
+Puedes comenzar verificando la tabla de desempeño provista por el fabricante, pero
+no hay como hacer tus propias pruebas, y encontrar poco a poco la configuración
+perfecta dada la situación.
+
+Es común que en carreras el sistema de poder sea tan amable que te permita experimentar
+con diferentes tipos de componentes y es aquí donde brilla la descicion de escoger
+racing class como tu primer multirotor ya que el costo no es tán alto como el de
+craft mas grande y su funcionamiento es el mismo.
+
+Esto es lo que hace al hobby tán caro comprar sólo para experimentar.
+
+### ESC's (electronic speed control)
+
+![esc](/img/esc.png)
+![esc-naked](/img/esc-naked.png)
+
+Es una pieza de electrónica encargada de alternar la polaridad del sistema de
+electromagnetos que se encuentra dentro de un motor brushless. Esto lo hace
+variando la frequencia de switching the una red de transistores de efecto campo (jolines)
+o `FET` que controlan la conductividad del canal, comeunmente los motores para
+multirotor ocupan 3 canales.
+
+Las caracteristicas que nos importan de un ESC es primero la cantidad de Amps que
+puede gobernar y las funciones que soporta.
+
+Los Amps está dado por los motores (podemos revisar esto en la tabla del fabricante)
+debemos dejar un colchón de un 20% si los motores consumen 15Amp los ESC's pueden ser
+de 18 o 20Amp.
+
+Los ESC's corren un sistma operativo, y existen varios SimonK, BLHeli, etc. Y cási
+todos soportan los features nuevos que nos interesan OneShot y Active Breaking. Es raro
+que tengas que lidiar directamente con ellos, pero es importante mantenerlos al día.
+
+## Batería
+
+
 
 ### Reversive props
 
