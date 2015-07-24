@@ -400,6 +400,91 @@ que tengas que lidiar directamente con ellos, pero es importante mantenerlos al 
 
 ## Batería
 
+![lipo](/img/lipo.jpg)
+![lipo-small](/img/lipo-small.jpg)
+
+[Batteries](https://www.youtube.com/watch?v=CX84l5ZZHVg)
+[How are they made](https://www.youtube.com/watch?v=MqywKcJ0J2M)
+[How are they made 2](https://learn.sparkfun.com/tutorials/how-lithium-polymer-batteries-are-made)
+
+La tecnología de baterias dominante en RC es LiPo (Polímero de Litio) que permite
+stackear celdas para lograr mayor voltaje y mayor corriente al descargar. [ref](http://androidforums.com/threads/lithium-polymer-batteries-101.213618/)
+
+![3s-lipo](/img/3s-lipo.jpg)
+
+Fabricada bajo la tecnología de ion-Litio, utiliza un electrolito líquido mezclado
+con un espesante plástico, lo cual permite crear un film seco y laminarlo entre
+el anodo y cåtodo (aluminio cubierto de litio con cabono y placas de cobre) permitiendo
+el intercambio de iones de litio (de ahí su nombre).
+
+![lipo-unrolled](/img/lipo-unrolled.jpg)
+
+[ref](http://www.rchelicopterfun.com/rc-lipo-batteries.html)
+
+#EXPLODE!
+
+## `lithium-salt`
+
+El electrolito usado en las baterías LiPo es volátil, si en caso de daño físico,
+sobrecarga o maldición los componentes internos del sandwich entran en contacto
+y sucede un corto, la temepratura de la batería puede subir en cuestión de segundos
+y encendiendo el electolito y estallando en llamas, la reacción es una violenta
+ventilación de fuego alimentada de la química interna de la batería lo cual ocaciona
+qie no pueda ser apagado al privarlo de oxigeno y el agua solo provocará que arda
+más rápido. La arena puede contener la reacción hasta que esta se termine.
+
+## PUFFY BATTERIES
+
+![puffy-lipo](/img/puffy-lipo.jpg)
+
+Cargar o descargar una batería por arriba de los niveles recomendados o por
+algún tipo de daño físico puede calentar la mezcla interna de la batería, esto
+puede llegar a generar un breakdown químico del electrólito que sucede en forma de
+gas de hidrocarbono, si el breakdown ocurre en el cátodo la reacción liberará
+oxigeno en su lugar. Ambos gases inflarán la batería y son señal de que claramente
+hay algo mal con la quimica interna de la batería.
+
+## Las delicadas flores de invernadero
+
+Las baterias son la pieza mas delicada de un multirotor, dado que físicamente están
+empaquetadas en un film de plástico este puede romperse muy facilmente. Y dado que
+por lo regular estará volando a grandes alturas y velocidades rodeada de navajas
+girando a más de 500rpm hay que tener bastánte cuidado al manejar una batería en
+potencial riesgo de explosión.
+
+Las baterias lipo funcionan mejor en cargas parciales, por eso es importante usar
+un cargador especial para lipo, una celda tendrá su carga completa a 4.2v y su carga
+mínima a 3.4v. Si descargamos una celda a menos de 3.3v~ corremos el riesgo de
+dañarla y no poder hacer que cargue de nuevo.
+
+Si no vas a utiilizar tus baterias por un periodo de 1 semana (polémico) es preferible
+llevarlas a una `carga de storage` esto es poner cada celda alrededor de 3.8v considerado
+el 50% de carga usable en una lipo, esto mantendrá la química interna en balance
+lo cual permitirá cargar y descargar de manera correcta durante su vida util.
+
+Comunmente los cargadores de LiPo tienen los seguros necesarios para detener la
+carga/descarga al llegar al voltaje correcto, pero el mercado está lleno de
+productos de mala calidad ya que cási todo el hardware es fabricado con muy bajos
+costos así que hay que detener manualmente la carga/descarga al llegar a  3.4v
+de descarga y 4.2 de carga.
+
+Es importante utilizar ubn contenedor correcto para transportarlas, lo más práctico
+es usar una bolsa para Lipos.
+
+![lipo-bags](/img/lipo-bags.png)
+
+## Battery rules
+
+- Cargar a más de 4.2 cada celda
+- Descargar a menos de 3.3v cada celda
+- Dejar desatendida un cargador funcionando
+- Usar baterias puffy
+- Guardar una batería cargada
+- Dejar descargadas las baterías con 3.4v por largo tiempo
+- Operar con baterías muy calientes
+- Operar con baterías muy frias
+- Trasnportarlas sin un contenedor especial
+
 
 
 ### Reversive props
