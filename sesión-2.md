@@ -485,7 +485,52 @@ es usar una bolsa para Lipos.
 - Operar con baterías muy frias
 - Trasnportarlas sin un contenedor especial
 
+## Los números
 
+Cuanta energia necesitan mis motores?
+
+![motor-current](/img/motor-current.png)
+
+Pero será necesario hacer thrust tests para ver el desempeño real en nuestro
+entorno con nuestros componentes.
+
+Cuanta energía me da una batería
+
+![1000-lipo](/img/1000-lipo.png)
+
+```
+1000mAh (milliAmp) = 1A (Amp)
+
+35c índice de descarga
+
+35 * 1 = 35Amps
+
+35Amp / 4 = 8.75Amp disponibles para cáda motor (therefore underpowered)
+```
+Los motores no podrán funcionar a su máxima capacidad ya que la batería no puede
+proveer suficiente amperaje.
+
+![1300-lipo](/img/1300-lipo.png)
+
+```
+1300mAh (milliAmp) = 1.3A (Amp)
+
+65c índice de descarga
+
+65 * 1.3 = 84.5Amps
+
+84.5Amp / 4 = 21.15Amp disponibles para cáda motor (therefore cool with it)
+```
+Debemos saber si nuestra batería puede proveer de suficiente aperaje a los motores
+y así aprovechar ambos componentes de la manera más eficiente.
+
+Por último, lás baterías suelen ser el componente más pesado del craft, por tanto
+hay que considerarlas desde el principio cuando estemos decidiendo nuestros
+componentes.
+
+
+
+### Mounting options
 
 ### Reversive props
 
